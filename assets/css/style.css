@@ -1,0 +1,131 @@
+body {
+ padding-top:70px;
+}
+
+.productsrow {
+ -moz-column-width: 18em;
+ -webkit-column-width: 18em;
+ -moz-column-gap: 1em;
+ -webkit-column-gap: 1em;
+}
+
+.menu-category {
+ display: inline-block;
+ margin-bottom:  0.25rem;
+ padding:  1rem;
+ width:  100%;
+}
+
+.product-image {
+ width: 100%;
+}
+
+.product {
+ padding-top:22px;
+}
+
+.btn-product {
+ background-color:#222;
+ color:#eee;
+ border-radius:0;
+}
+
+.yellow {
+ color:yellow;
+ text-shadow:#ccc 1px 1px 0;
+}
+
+.ad {
+position: absolute;
+bottom: 70px;
+right: 48px;
+z-index: 992;
+background-color:#f3f3f3;
+position: fixed;
+width: 155px;
+padding:1px;
+}
+
+.ad-btn-hide {
+position: absolute;
+top: -10px;
+left: -12px;
+background: #fefefe;
+background: rgba(240,240,240,0.9);
+border: 0;
+border-radius: 26px;
+cursor: pointer;
+padding: 2px;
+height: 25px;
+width: 25px;
+font-size: 14px;
+vertical-align:top;
+outline: 0;
+}
+
+.carbon-img {
+float:left;
+padding: 10px;
+}
+
+.carbon-text {
+color: #888;
+display: inline-block;
+font-family: Verdana;
+font-size: 11px;
+font-weight: 400;
+height: 60px;
+margin-left: 9px;
+width: 142px;
+padding-top: 10px;
+}
+
+.carbon-text:hover {
+color: #666;
+}
+
+.carbon-poweredby {
+color: #6A6A6A;
+float: left;
+font-family: Verdana;
+font-size: 11px;
+font-weight: 400;
+margin-left: 10px;
+margin-top: 13px;
+text-align: center;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.center .center-block {
+    display: block;
+    margin-right: 60px;
+    margin-left: 300px;
+}
+
+/* end custom CSS */
