@@ -1,5 +1,5 @@
 body {
- padding-top:70px;
+ padding-top:30px;
 }
 
 .productsrow {
@@ -127,5 +127,10 @@ text-align: center;
     margin-right: 60px;
     margin-left: 300px;
 }
+
+.h1, .h2, .h3 {
+    margin-left: 150px;
+}
+
 
 /* end custom CSS */

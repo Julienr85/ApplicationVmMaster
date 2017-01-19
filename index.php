@@ -5,10 +5,11 @@
 <head>
   <style>
     #blocTopLeft{
-      float:left;
+      margin-top: 20px;
+      margin-left: 100px;
       width:auto;
       height:118px;
-      content:url(assets/image/VMM_logo.png);
+      content:url(Projet1_GL/assets/image/VMM_logo.png);
     }
     #blocTopRight{
       float:left;
@@ -44,22 +45,20 @@
       text-align:right;
       width:50%;
     }
-  </style>
+
+</style>
 </head>
 <body>
   <div class="container-fluid">
-    <div class="col-md-12">
       <div class="image" id="blocTopLeft"></div>
-      <div class="container-fluid text-left" align="right" id="blocTopRight">
-        <h1>Acheter des machines virtuelles en s'amusant</h1>
-        <p class="lead">Windows, Mac OS, Ubuntu, on a tout</p>
+      <h1 class="text-center">Virtual Machine Master</h1>
+      <p class="text-center">Windows, Mac OS, Ubuntu, on a tout</p>
       </div>
-    </div>
   </div>
 
   <hr>
   <div class="container-fluid" id="blocGeneral">
-    <div class="container-fluid" id="blocLeft">
+    <div class="container-fluid center" id="bloccenter">
       <div class="dialog">
         <div class="content">
           <form name="form_connexion" id="form_connexion" method="post" action="authentification.php">
@@ -88,53 +87,6 @@
       <hr>
     </div><!--/container-fluid blocLeft-->
 
-    <div class="container-fluid" id="blocRight">
-      <div class="dialog">
-        <div class="content">
-          <form name="formulaire_connexion" id="formulaire_inscription" action="formulaire.php" method="post" >
-          <div class="header">
-            <h4 class="title">Première visite ?</h4>
-          </div>
-          <div class="body">
-              <div class="form-group">
-                <label for="nom">Nom</label>
-                <div class="controls">
-                  <input class="form-control" name="nom" placeholder="Nom" type="text">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="prenom">Prénom</label>
-                <div class="controls">
-                  <input class="form-control" name="prenom" placeholder="Prénom" type="text">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Adresse mail</label>
-                <div class="controls">
-                  <input class="form-control" name="inputEmail" placeholder="Adresse mail" type="email">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Mot de passe</label>
-                <div class="controls">
-                  <input class="form-control" name="inputPassword" placeholder="Mot de passe" type="password">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="reenterpassword">Confirmation de mot de passe </label>
-                <div class="controls">
-                    <input class="form-control" name="reenterPassword" placeholder="Mot de passe" type="password">
-                </div>
-              </div>
-              <div class="footer" align="left">
-                  <input type="submit" value="Créer mon compte" class="btn btn-primary" id="creationCompte"></input>
-                  <a href="#modalCompte" data-toggle="modal" data-target="#modalCompte" class="btn btn-primary achat">Récap infos</a>
-              </div>
-          </div><!--/div class="body"-->
-         </form>
-        </div>
-      </div>
-    </div><!--/container-fluid blocRight-->
   </div>
   <div class="modal fade" id="modalCompte">
     <div class="modal-dialog">
